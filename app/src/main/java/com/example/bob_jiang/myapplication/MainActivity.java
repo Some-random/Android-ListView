@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 holder = (ViewHolder)convertView.getTag();
             }
 
-            //holder.title.setText(dateList.get(position).get("ItemTitle").toString());
+            holder.title.setText(dateList.get(position).get("ItemTitle").toString());
             holder.text.setText(dateList.get(position).get("ItemText").toString());
             holder.bt.setOnClickListener(new View.OnClickListener() {
                 @Override
